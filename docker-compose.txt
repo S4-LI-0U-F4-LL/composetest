@@ -1,0 +1,16 @@
+### Build a app with docker compose 
+
+$ docker-compose up 
+
+### run your app in background
+
+$ docker-compose up -d
+
+###  run one-off commands for your services
+
+$ docker-compose run web env 
+
+Stop service 
+
+$ docke-compose stop
+
