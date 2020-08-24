@@ -1,6 +1,9 @@
 #### link
 https://docs.docker.com/compose/gettingstarted/
 
+### Buil app
+docker-compose build app
+
 ### Build a app with docker compose 
 
 $ docker-compose up 
@@ -17,3 +20,18 @@ Stop service
 
 $ docke-compose stop
 
+### shell container with docker-compose
+
+docker-compose exec < containerName > < Command >
+
+### pause 
+
+$ docker-compose pause
+
+### unpause
+
+$ docker-compose unpause
+
+### stop docker-compose
+
+$ docker-compose down
